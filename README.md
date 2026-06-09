@@ -9,11 +9,11 @@ This is a learning project demonstrating the full fine-tuning pipeline — not a
 - Fine-tuning with PEFT and TRL (SFTTrainer)
 - Dataset preparation in Alpaca instruction format
 - Deploying a fine-tuned model with Gradio (temporary public URL via Kaggle GPU)
-- 
+  
 ## Repository Structure
 - `training.ipynb` — full fine-tuning pipeline (data prep, QLoRA config, training, upload to HF)
 - `medical-chatbot-inference.ipynb` — load adapters and run inference with Gradio
-- 
+  
 ## Stack
 - **Base model:** TinyLlama-1.1B-Chat-v1.0
 - **Technique:** QLoRA (4-bit NF4, r=16)
